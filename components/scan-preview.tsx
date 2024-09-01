@@ -340,7 +340,6 @@ export default function ScanPreview() {
         <DialogContent className="bg-zinc-900 text-zinc-100 border-zinc-700 min-w-full md:min-w-[1000px]">
           <DialogHeader>
             <DialogTitle>Scan Results</DialogTitle>
-            <DialogDescription>{scanResult?.conclusion}</DialogDescription>
           </DialogHeader>
           {renderScanResult()}
         </DialogContent>
